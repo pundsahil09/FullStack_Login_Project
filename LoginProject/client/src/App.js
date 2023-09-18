@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import { Routes, Route } from 'react-router-dom'
 import Register from './Components/Register';
 import Login from './Components/Login';
+import Forgot from './Components/Forgot';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/Register' element={<Register />} />
           <Route path='/' element={<Login />} />
+          <Route path='/forgot' element={<Forgot />} />
 
         </Routes>
 

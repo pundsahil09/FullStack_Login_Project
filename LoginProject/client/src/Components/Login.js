@@ -65,6 +65,11 @@ function Login() {
                         <input type="password" value={password} onChange={(e) => { setPassword(e.target.value) }} name="password" autoComplete="off" className="form-control"
                             id="exampleInputPassword1" required />
                     </div>
+
+                    <div className="mb-3">
+                        <Link to="/forgot" className="text-danger" style={{ textDecoration: 'none' }}>Forgot Password ?</Link>
+                    </div>
+
                     <div className="mb-3">
                         <Link to="/Register" className="text-danger" style={{ textDecoration: 'none' }}>Dont Have account REGISTER</Link>
                     </div>
